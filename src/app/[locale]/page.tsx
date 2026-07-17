@@ -43,11 +43,11 @@ export async function generateMetadata({
   };
 
   return {
-    title: locale === "en" ? "Mali ECO | HOME" : "Mali ECO | ACCUEIL",
+    title: locale === "en" ? "MALI ECO | HOME" : "MALI ECO | ACCUEIL",
     description:
       locale === "en"
-        ? "Mali ECO is your economic news portal dedicated to Mali"
-        : "Mali ECO est votre portail d'information économique dédié au Mali",
+        ? "MALI ECO is your economic news portal dedicated to Mali"
+        : "MALI ECO est votre portail d'information économique dédié au Mali",
 
     // Icônes de navigation
     icons: {
@@ -60,20 +60,20 @@ export async function generateMetadata({
 
     // Balises Open Graph pour Facebook, WhatsApp, etc.
     openGraph: {
-      title: locale === "en" ? "Mali ECO | HOME" : "Mali ECO | ACCUEIL",
+      title: locale === "en" ? "MALI ECO | HOME" : "MALI ECO | ACCUEIL",
       description:
         locale === "en"
-          ? "Mali ECO is your economic news portal dedicated to Mali"
-          : "Mali ECO est votre portail d'information économique dédié au Mali",
+          ? "MALI ECO is your economic news portal dedicated to Mali"
+          : "MALI ECO est votre portail d'information économique dédié au Mali",
       url: `${siteDomain}/${locale}`,
-      siteName: "Mali ECO",
+      siteName: "MALI ECO",
       type: "website",
       images: [
         {
           url: `${siteDomain}/${locale}/images/og-image.png`, // 🔧 Met une vraie image (1200x630px)
           width: 1200,
           height: 630,
-          alt: "Aperçu Mali Eco",
+          alt: "Aperçu MALI ECO",
         },
       ],
     },
@@ -81,11 +81,11 @@ export async function generateMetadata({
     // Twitter card (aperçu sur Twitter/X)
     twitter: {
       card: "summary_large_image",
-      title: locale === "en" ? "Mali ECO | HOME" : "Mali ECO | ACCUEIL",
+      title: locale === "en" ? "MALI ECO | HOME" : "MALI ECO | ACCUEIL",
       description:
         locale === "en"
-          ? "Mali ECO is your economic news portal dedicated to Mali"
-          : "Mali ECO est votre portail d'information économique dédié au Mali",
+          ? "MALI ECO is your economic news portal dedicated to Mali"
+          : "MALI ECO est votre portail d'information économique dédié au Mali",
       images: [`${siteDomain}/${locale}/images/og-image.png`],
     },
   };

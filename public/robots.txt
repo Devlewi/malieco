@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.cameroun-eco.com
+Host: https://www.mali-eco.com
 
 # Sitemaps
-Sitemap: https://www.cameroun-eco.com/sitemap.xml
+Sitemap: https://www.mali-eco.com/sitemap.xml
