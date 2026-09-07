@@ -1,6 +1,6 @@
 import * as React from "react";
 
-// Définir explicitement le type des `children`
+// Définir explicitement le type des `children`.
 interface DropdownMenuProps {
   children: React.ReactNode;
 }
